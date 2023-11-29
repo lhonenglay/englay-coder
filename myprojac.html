@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+    <script src="https://cdn.tailwindcss.com/3.3.0"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                fontFamily: {
+                    sans: ["Roboto", "sans-serif"],
+                    body: ["Roboto", "sans-serif"],
+                    mono: ["ui-monospace", "monospace"],
+                },
+            },
+            corePlugins: {
+                preflight: false,
+            },
+        };
+    </script>
+
+</head>
+
+<title>Layout Card</title>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    .col-3 {
+        float: left;
+        width: 100%;
+        padding: 12px;
+
+    }
+
+    .col-3 img {
+        width: 100%;
+    }
+
+    .col-3 h4 {
+        text-align: center;
+    }
+
+    .col-3 div {
+        border: 1px solid #CCC;
+        box-shadow: 5px 10px 5px rgb(221, 216, 216);
+    }
+
+    @media only screen and (min-width: 600px) {
+        .col-3 {
+            width: 50%;
+        }
+    }
+
+
+    @media only screen and (min-width: 768px) {
+        .col-3 {
+            width: 25%;
+        }
+    }
+
+
+    @media only screen and (min-width: 992px) {
+        .col-3 {
+            width: 25%;
+        }
+    }
+
+
+    @media only screen and (min-width: 1200px) {
+        .col-3 {
+            width: 25%;
+        }
+    }
+</style>
+
+<body>
+
+
+
+
+
+    <div class="col3">
+        <img src="https://www.praetas.com/wp-content/uploads/2018/10/Home-Gaming-PC-1-1500x430.jpg" alt="">
+    </div>
+
+    <nav class="flex justify-center space-x-4">
+        <a href="https://www.facebook.com/nh.lay.5070/about"
+            class="font-b px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">facebook</a>
+        <a href="https://t.me/Lhonenglay"
+            class="font-b px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Telegram</a>
+        <a href="/projects"
+            class="font-b px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">instargram</a>
+        <a href="/reports"
+            class="font-b px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">@Gmail</a>
+    </nav>
+
+    <h1 class="title" style="text-align:center; text-transform: uppercase;font-family: 'Barlow', sans-serif;">About
+        Myself
+    </h1>
+
+    <blockquote class="text-2xl font-semibold italic text-center text-slate-900">
+        ]
+        <span
+            class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
+            <span class="relative text-white">COMPUTER</span>
+        </span>
+        Please check the luggage below you like
+    </blockquote>
+
+
+
+
+    <div class="col-3">
+        <div shadow-inner ...>
+            <ul>
+                <img src="https://images.unsplash.com/photo-1517059224940-d4af9eec41b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1005&q=80"
+                    alt="img">
+
+                <button type="button"
+                    class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... w-32 .. h-7 ... hover:-translate-y-1 hover:scale-110">
+                    button
+                </button>
+
+                <h4>CPU: Up to Core i9 13900HXGPU: RTX 4090, RTX 4080, or RTX 4070RAM: Up to 32GB DDR5Screen: 2560 x
+                    1600,
+                    16:10 aspect ratioStorage: Up to 2TB Gen 4 SSDBattery: Up to 99.99WhDimensions: 10.32 x 14.3 x
+                    0.86–1.01
+                    inchesWeight: 6.17lbs</h4>
+                <p class="text-rose-700">1500$</p>
+        </div>
+
+    </div>
+
+    <div class="col-3">
+        <div>
+            <img src="https://images.unsplash.com/photo-1517059224940-d4af9eec41b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1005&q=80"
+                alt="img">
+            <button type="button"
+                class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... w-32 .. h-7 ... hover:-translate-y-1 hover:scale-110">
+                button
+            </button>
+            <h4>CPU: Up to Core i9 13900HXGPU: RTX 4090, RTX 4080, or RTX 4070RAM: Up to 32GB DDR5Screen: 2560 x 1600,
+                16:10 aspect ratioStorage: Up to 2TB Gen 4 SSDBattery: Up to 99.99WhDimensions: 10.32 x 14.3 x 0.86–1.01
+                inchesWeight: 6.17lbs</h4>
+            <p class="text-rose-700">1500$</p>
+        </div>
+
+    </div>
+    <div class="col-3">
+        <div>
+            <img src="https://images.unsplash.com/photo-1517059224940-d4af9eec41b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1005&q=80"
+                alt="img">
+            <button type="button"
+                class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... w-32 .. h-7 ... hover:-translate-y-1 hover:scale-110">
+                button
+            </button>
+            <h4>CPU: Up to Core i9 13900HXGPU: RTX 4090, RTX 4080, or RTX 4070RAM: Up to 32GB DDR5Screen: 2560 x 1600,
+                16:10 aspect ratioStorage: Up to 2TB Gen 4 SSDBattery: Up to 99.99WhDimensions: 10.32 x 14.3 x 0.86–1.01
+                inchesWeight: 6.17lbs</h4>
+            <p class="text-rose-700">1500$</p>
+        </div>
+
+
+    </div>
+    <div class="col-3">
+        <div>
+            <img src="https://images.unsplash.com/photo-1517059224940-d4af9eec41b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1005&q=80"
+                alt="img">
+            <button type="button"
+                class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... w-32 .. h-7 ... hover:-translate-y-1 hover:scale-110">
+                button
+            </button>
+            <h4>CPU: Up to Core i9 13900HXGPU: RTX 4090, RTX 4080, or RTX 4070RAM: Up to 32GB DDR5Screen: 2560 x 1600,
+                16:10 aspect ratioStorage: Up to 2TB Gen 4 SSDBattery: Up to 99.99WhDimensions: 10.32 x 14.3 x 0.86–1.01
+                inchesWeight: 6.17lbs</h4>
+            <p class="text-rose-700">1500$</p>
+        </div>
+
+
+    </div>
+
+    <div class="col-3">
+        <div>
+            <img src="https://images.unsplash.com/photo-1517059224940-d4af9eec41b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1005&q=80"
+                alt="img">
+            <button type="button"
+                class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... w-32 .. h-7 ... hover:-translate-y-1 hover:scale-110">
+                button
+            </button>
+            <h4>CPU: Up to Core i9 13900HXGPU: RTX 4090, RTX 4080, or RTX 4070RAM: Up to 32GB DDR5Screen: 2560 x 1600,
+                16:10 aspect ratioStorage: Up to 2TB Gen 4 SSDBattery: Up to 99.99WhDimensions: 10.32 x 14.3 x 0.86–1.01
+                inchesWeight: 6.17lbs</h4>
+            <p class="text-rose-700">1500$</p>
+        </div>
+
+
+    </div>
+    <div class="col-3">
+        <div>
+            <img src="https://images.unsplash.com/photo-1517059224940-d4af9eec41b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1005&q=80"
+                alt="img">
+            <button type="button"
+                class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... w-32 .. h-7 ... hover:-translate-y-1 hover:scale-110">
+                button
+            </button>
+            <h4>CPU: Up to Core i9 13900HXGPU: RTX 4090, RTX 4080, or RTX 4070RAM: Up to 32GB DDR5Screen: 2560 x 1600,
+                16:10 aspect ratioStorage: Up to 2TB Gen 4 SSDBattery: Up to 99.99WhDimensions: 10.32 x 14.3 x 0.86–1.01
+                inchesWeight: 6.17lbs</h4>
+            <p class="text-rose-700">1500$</p>
+        </div>
+
+
+    </div>
+
+    <div class="col-3">
+        <div>
+            <img src="https://images.unsplash.com/photo-1517059224940-d4af9eec41b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1005&q=80"
+                alt="img">
+            <button type="button"
+                class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... w-32 .. h-7 ... hover:-translate-y-1 hover:scale-110">
+                button
+            </button>
+            <h4>CPU: Up to Core i9 13900HXGPU: RTX 4090, RTX 4080, or RTX 4070RAM: Up to 32GB DDR5Screen: 2560 x 1600,
+                16:10 aspect ratioStorage: Up to 2TB Gen 4 SSDBattery: Up to 99.99WhDimensions: 10.32 x 14.3 x 0.86–1.01
+                inchesWeight: 6.17lbs</h4>
+            <p class="text-rose-700">1500$</p>
+        </div>
+
+
+    </div>
+    <div class="col-3">
+        <div>
+            <img src="https://images.unsplash.com/photo-1517059224940-d4af9eec41b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1005&q=80"
+                alt="img">
+            <button type="button"
+                class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... w-32 .. h-7 ... hover:-translate-y-1 hover:scale-110">
+                button
+            </button>
+            <h4>CPU: Up to Core i9 13900HXGPU: RTX 4090, RTX 4080, or RTX 4070RAM: Up to 32GB DDR5Screen: 2560 x 1600,
+                16:10 aspect ratioStorage: Up to 2TB Gen 4 SSDBattery: Up to 99.99WhDimensions: 10.32 x 14.3 x 0.86–1.01
+                inchesWeight: 6.17lbs</h4>
+            <p class="text-rose-700">1500$</p>
+        </div>
+
+
+    </div>
+
+    <div class="col-3">
+        <div>
+            <img src="https://images.unsplash.com/photo-1517059224940-d4af9eec41b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1005&q=80"
+                alt="img">
+            <button type="button"
+                class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... w-32 .. h-7 ... hover:-translate-y-1 hover:scale-110">
+                button
+            </button>
+            <h4>CPU: Up to Core i9 13900HXGPU: RTX 4090, RTX 4080, or RTX 4070RAM: Up to 32GB DDR5Screen: 2560 x 1600,
+                16:10 aspect ratioStorage: Up to 2TB Gen 4 SSDBattery: Up to 99.99WhDimensions: 10.32 x 14.3 x 0.86–1.01
+                inchesWeight: 6.17lbs</h4>
+            <p class="text-rose-700">1500$</p>
+        </div>
+
+
+    </div>
+    <div class="col-3">
+        <div>
+            <img src="https://images.unsplash.com/photo-1517059224940-d4af9eec41b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1005&q=80"
+                alt="img">
+            <button type="button"
+                class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... w-32 .. h-7 ... hover:-translate-y-1 hover:scale-110">
+                button
+            </button>
+            <h4>CPU: Up to Core i9 13900HXGPU: RTX 4090, RTX 4080, or RTX 4070RAM: Up to 32GB DDR5Screen: 2560 x 1600,
+                16:10 aspect ratioStorage: Up to 2TB Gen 4 SSDBattery: Up to 99.99WhDimensions: 10.32 x 14.3 x 0.86–1.01
+                inchesWeight: 6.17lbs</h4>
+            <p class="text-rose-700">1500$</p>
+        </div>
+
+    </div>
+
+    <div class="col-3">
+        <div>
+            <img src="https://images.unsplash.com/photo-1517059224940-d4af9eec41b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1005&q=80"
+                alt="img">
+            <button type="button"
+                class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... w-32 .. h-7 ... hover:-translate-y-1 hover:scale-110">
+                button
+            </button>
+            <h4>CPU: Up to Core i9 13900HXGPU: RTX 4090, RTX 4080, or RTX 4070RAM: Up to 32GB DDR5Screen: 2560 x 1600,
+                16:10 aspect ratioStorage: Up to 2TB Gen 4 SSDBattery: Up to 99.99WhDimensions: 10.32 x 14.3 x 0.86–1.01
+                inchesWeight: 6.17lbs</h4>
+            <p class="text-rose-700">1500$</p>
+        </div>
+
+
+    </div>
+
+
+    <div class="col-3">
+        <div>
+            <img src="https://images.unsplash.com/photo-1517059224940-d4af9eec41b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1005&q=80"
+                alt="img">
+            <button type="button"
+                class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... w-32 .. h-7 ... hover:-translate-y-1 hover:scale-110">
+                button
+            </button>
+            <h4>CPU: Up to Core i9 13900HXGPU: RTX 4090, RTX 4080, or RTX 4070RAM: Up to 32GB DDR5Screen: 2560 x 1600,
+                16:10 aspect ratioStorage: Up to 2TB Gen 4 SSDBattery: Up to 99.99WhDimensions: 10.32 x 14.3 x 0.86–1.01
+                inchesWeight: 6.17lbs</h4>
+            <p class="text-rose-700">1500$</p>
+
+        </div>
+
+</body>
+
+
+</html>
